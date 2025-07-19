@@ -1,0 +1,38 @@
+
+
+
+
+
+.home-container {
+  height: 75vh;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.home-content {
+  margin-top: 0; /* Remove negative margin for true vertical centering */
+}
+
+/* ...existing code... */
+.home-title {
+  font-size: 9.5rem;
+  color: #05325b;
+  
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.home-line {
+  display: block;
+}
+
+.home-line-second {
+  display: block;
+  margin-top: 0.5rem;
+}
